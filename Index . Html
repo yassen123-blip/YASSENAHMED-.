@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>متجر شحن الألعاب</title>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; margin: 0; background-color: #f8f9fa; }
+    header { background-color: #111; color: white; padding: 1rem; display: flex; justify-content: space-between; align-items: center; }
+    header .logo { font-size: 1.5rem; font-weight: bold; }
+    header .contact-button { background-color: #25D366; color: white; padding: 0.5rem 1rem; border: none; border-radius: 5px; cursor: pointer; text-decoration: none; }
+    .hero { background-color: #343a40; color: white; text-align: center; padding: 3rem 1rem; }
+    .hero h1 { margin: 0 0 1rem; }
+    .games { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; padding: 2rem; }
+    .game-card { background: white; padding: 1rem; border-radius: 10px; text-align: center; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    .game-card img { max-width: 100px; margin-bottom: 1rem; }
+    .game-card button { background-color: #007bff; color: white; padding: 0.5rem 1rem; border: none; border-radius: 5px; cursor: pointer; }
+    .steps, .payment-methods { padding: 2rem; background-color: #fff; text-align: center; }
+    .footer { background-color: #111; color: white; text-align: center; padding: 1rem; }
+    .section-title { margin-bottom: 1rem; font-size: 1.25rem; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">متجر شحن الألعاب</div>
+    <a class="contact-button" href="https://wa.me/966500000000">تواصل واتساب</a>
+  </header>
+
+  <section class="hero">
+    <h1>اشحن ألعابك المفضلة بأسرع وأسهل طريقة!</h1>
+    <p>خدمة سريعة، أسعار منافسة، دعم فوري</p>
+  </section>
+
+  <section class="games">
+    <div class="game-card">
+      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/88/PUBG_Tencent_Logo.png/200px-PUBG_Tencent_Logo.png" alt="PUBG">
+      <h3>PUBG</h3>
+      <button>اشحن الآن</button>
+    </div>
+    <div class="game-card">
+      <img src="https://upload.wikimedia.org/wikipedia/en/2/2d/Free_Fire_Logo.png" alt="Free Fire">
+      <h3>Free Fire</h3>
+      <button>اشحن الآن</button>
+    </div>
+    <div class="game-card">
+      <img src="https://upload.wikimedia.org/wikipedia/en/6/6e/Call_of_Duty_logo.svg" alt="COD">
+      <h3>Call of Duty</h3>
+      <button>اشحن الآن</button>
+    </div>
+    <div class="game-card">
+      <img src="https://upload.wikimedia.org/wikipedia/en/3/3e/FIFA_23_Cover.png" alt="FIFA">
+      <h3>FIFA</h3>
+      <button>اشحن الآن</button>
+    </div>
+  </section>
+
+  <section class="steps">
+    <div class="section-title">طريقة الطلب:</div>
+    <p>1. اختر لعبتك</p>
+    <p>2. حدّد المبلغ</p>
+    <p>3. تواصل معنا عبر واتساب</p>
+    <p>4. استلم رصيدك فورًا</p>
+  </section>
+
+  <section class="payment-methods">
+    <div class="section-title">طرق الدفع المتوفرة:</div>
+    <p>Apple Pay - STC Pay - تحويل بنكي - PayPal</p>
+  </section>
+
+  <footer class="footer">
+    <p>جميع الحقوق محفوظة &copy; 2025</p>
+    <p><a href="#" style="color:white; text-decoration: underline;">سياسة الخصوصية</a> | <a href="#" style="color:white; text-decoration: underline;">شروط الاستخدام</a></p>
+  </footer>
+</body>
+</html>
